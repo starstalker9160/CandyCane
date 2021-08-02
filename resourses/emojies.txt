@@ -1,0 +1,6 @@
+ping-pong = :ping_pong:
+thumbs up = :thumbsup:
+thumns down = :thumbsdown:
+upvote = :upvote:
+coin = :coin:
+!@$^#%^#$^#%^*# = :face_with_symbols_over_mouth:
