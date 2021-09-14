@@ -9,6 +9,7 @@ import tracemalloc
 from io import BytesIO
 from calendar import month
 from resourses.directory import *
+from resourses.token import bot_token
 from discord.ext import commands
 from PIL import Image, ImageFont, ImageDraw
 from discord.ext.commands import MissingRequiredArgument, CommandNotFound, BadArgument, BucketType, \
@@ -1996,4 +1997,4 @@ async def ch_pr():
 
 client.loop.create_task(ch_pr())
 
-client.run(token)
+client.run(bot_token)
