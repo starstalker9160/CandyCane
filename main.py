@@ -670,7 +670,7 @@ async def drake(ctx, *, text=None):
     await ctx.send(file=discord.File("images/meme.jpg"))
 
 
-@client.command(help="| Drake meme")
+@client.command(help="| no sleep")
 async def idontneedsleep(ctx, *, text=None):
     if text is None:
         ctx.send("Enter some text and try again...")
