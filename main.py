@@ -885,7 +885,6 @@ async def place(ctx, pos: int):
     global board
     global count
     global gameOver
-    print(count)
     if not gameOver:
         mark = ""
         if turn == ctx.author:
@@ -1166,7 +1165,7 @@ async def ccServer(ctx):
 
 @client.command(help='| This will display a message to welcome CandyCane into the server')
 async def new_server(ctx):
-    await ctx.send('Hi @everyone,')
+    await ctx.send('Hi `@everyone`,')
     await ctx.send('I am CandyCane, A general purpose bot with a sweet name. *(Sorry for the puns)*')
     await ctx.send('I hope we enjoy our time here on the server!!')
     await ctx.send('Here is our discord server! if you are interested...')
